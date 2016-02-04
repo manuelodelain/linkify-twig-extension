@@ -1,8 +1,10 @@
 <?php
 
+namespace manuelodelain;
+
 use \Misd\Linkify\Linkify;
 
-class LinkifyExtension extends \Twig_Extension
+class LinkifyTwigExtension extends \Twig_Extension
 {
   protected $linkify;
 
@@ -13,7 +15,7 @@ class LinkifyExtension extends \Twig_Extension
 
   public function getName()
   {
-      return 'twigLinkifyExtension';
+      return 'linkify';
   }
 
   public function getFilters()

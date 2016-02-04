@@ -1,11 +1,14 @@
 {
-  "name": "linkify-twig-extension",
+  "name": "manuelodelain/linkify-twig-extension",
   "description": "Twig extension for Linkify - converts URLs and email addresses into HTML links",
   "license": "MIT",
   "require": {
     "misd/linkify": "^1.1"
   },
   "autoload": {
-    "psr-4": {"LinkifyExtension\\": "src/"}
+    "psr-4": {"manuelodelain\\": "src/"}
+  },
+  "require-dev": {
+    "twig/twig": "~1.0"
   }
 }
