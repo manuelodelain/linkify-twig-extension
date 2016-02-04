@@ -1,10 +1,10 @@
 <?php
 
-namespace manuelodelain;
+namespace manuelodelain\Twig\Extension;
 
 use \Misd\Linkify\Linkify;
 
-class LinkifyTwigExtension extends \Twig_Extension
+class LinkifyExtension extends \Twig_Extension
 {
   protected $linkify;
 
