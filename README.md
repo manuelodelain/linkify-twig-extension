@@ -5,7 +5,7 @@ Use [Linkify](https://github.com/misd-service-development/php-linkify) in your t
 ## Installation
 
 With Composer:
-`composer require manuelodelain/linkify-twig-extension` 
+```composer require manuelodelain/linkify-twig-extension```
 
 ## Usage
 
@@ -47,6 +47,11 @@ $twig->addExtension(new LinkifyExtension(array('attr' => array('target' => '_bla
 At the method call:
 ```
 {{ 'Lorem ipsum ... www.website.com ...'|linkify({"attr": {"target": "_blank"}}) }}
+```
+
+Will output:
+```
+Lorem ipsum ... <a href="www.website.com" target="_blank">www.website.com</a> ...
 ```
 
 [See the Linkify options](https://github.com/misd-service-development/php-linkify#options)
