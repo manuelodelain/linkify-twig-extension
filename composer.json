@@ -1,0 +1,11 @@
+{
+  "name": "linkify-twig-extension",
+  "description": "Twig extension for Linkify - converts URLs and email addresses into HTML links",
+  "license": "MIT",
+  "require": {
+    "misd/linkify": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {"LinkifyExtension\\": "src/"}
+  }
+}
