@@ -32,6 +32,3 @@ class LinkifyExtension extends \Twig_Extension
     return $url;
   }
 }
-
-?>
-
