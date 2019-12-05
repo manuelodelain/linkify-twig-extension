@@ -11,8 +11,9 @@ With Composer:
 
 ```
 use manuelodelain\Twig\Extension\LinkifyExtension;
+use Twig\Environment;
 
-$twig = new Twig_Environment(...);
+$twig = new Environment(...);
 
 $twig->addExtension(new LinkifyExtension());
 ```
@@ -38,8 +39,9 @@ As Linkify, set default options at the instanciation or at the method call.
 At the instanciation (applied to all links):
 ```
 use manuelodelain\Twig\Extension\LinkifyExtension;
+use Twig\Environment;
 
-$twig = new Twig_Environment(...);
+$twig = new Environment(...);
 
 $twig->addExtension(new LinkifyExtension(array('attr' => array('target' => '_blank'))));
 ```
