@@ -6,9 +6,11 @@
     "misd/linkify": "^1.1"
   },
   "autoload": {
-    "psr-4": {"manuelodelain\\Twig\\Extension\\": "src/"}
+    "psr-4": {
+      "manuelodelain\\Twig\\Extension\\": "src/"
+    }
   },
   "require-dev": {
-    "twig/twig": "~1.0"
+    "twig/twig": "^3.0"
   }
 }

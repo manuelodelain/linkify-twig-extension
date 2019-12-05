@@ -4,7 +4,7 @@ Use [Linkify](https://github.com/misd-service-development/php-linkify) in your t
 
 ## Installation
 
-With Composer:
+Using Composer:
 ```composer require manuelodelain/linkify-twig-extension```
 
 ## Usage
@@ -39,7 +39,6 @@ As Linkify, set default options at the instanciation or at the method call.
 At the instanciation (applied to all links):
 ```
 use manuelodelain\Twig\Extension\LinkifyExtension;
-use Twig\Environment;
 
 $twig = new Environment(...);
 
