@@ -4,15 +4,16 @@ Use [Linkify](https://github.com/misd-service-development/php-linkify) in your t
 
 ## Installation
 
-With Composer:
+Using Composer:
 ```composer require manuelodelain/linkify-twig-extension```
 
 ## Usage
 
 ```
 use manuelodelain\Twig\Extension\LinkifyExtension;
+use Twig\Environment;
 
-$twig = new Twig_Environment(...);
+$twig = new Environment(...);
 
 $twig->addExtension(new LinkifyExtension());
 ```
@@ -39,7 +40,7 @@ At the instanciation (applied to all links):
 ```
 use manuelodelain\Twig\Extension\LinkifyExtension;
 
-$twig = new Twig_Environment(...);
+$twig = new Environment(...);
 
 $twig->addExtension(new LinkifyExtension(array('attr' => array('target' => '_blank'))));
 ```
